@@ -1,0 +1,68 @@
+/* Full navbar width and background */
+.custom-navbar {
+  width: 100vw;
+  background: linear-gradient(90deg, #021946, #011436);
+  padding: 0.6rem 1.5rem;
+  z-index: 1000;
+}
+
+/* Logo image */
+.logo-img {
+  width: 90px;
+  height: 80px;
+  object-fit: contain;
+}
+
+/* Navbar brand alignment */
+.navbar-brand {
+  display: flex;
+  align-items: center;
+}
+
+/* Navigation links */
+.nav-link {
+  color: #f0f0f0 !important;
+  font-weight: 500;
+  margin: 0 1rem;
+  transition: color 0.3s ease;
+  font-size: 1.1rem;
+}
+
+.nav-link:hover {
+  color: #ffdd57 !important;
+}
+
+/* Centering nav items */
+.nav-center {
+  display: flex;
+  justify-content: center;
+  flex: 1;
+}
+
+/* Search form styling */
+.search-form input {
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  border: none;
+  width: 200px;
+}
+
+.search-form .btn {
+  border-radius: 20px;
+  padding: 0.4rem 1rem;
+  font-size: 0.9rem;
+  border: 1px solid #fff;
+}
+
+/* Responsive layout */
+@media (max-width: 768px) {
+  .nav-center {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .search-form {
+    margin-top: 1rem;
+    justify-content: center;
+  }
+}

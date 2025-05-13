@@ -1,0 +1,47 @@
+/* Hero section with background image */
+.hero-section {
+  position: relative;
+  height: 100vh;
+  background: url('../assets/image/grapic.jpg') no-repeat center center/cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.overlay-content {
+  background: rgba(0, 0, 0, 0.5); /* Optional dark overlay for text contrast */
+  padding: 2rem;
+  border-radius: 15px;
+  max-width: 700px;
+}
+
+/* Second video section */
+.second-video-section {
+  background: #f8f9fa;
+  padding: 4rem 1rem;
+  text-align: center;
+}
+
+.second-video {
+  max-width: 100%;
+  height: auto;
+  border-radius: 10px;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+}
+
+/* Footer */
+.footer {
+  background-color: #1e1e1e;
+  color: white;
+}
+
+.social-icons a {
+  color: white;
+  margin: 0 10px;
+  font-size: 1.3rem;
+  transition: color 0.3s;
+}
+
+.social-icons a:hover {
+  color: #00e0ff;
+}
